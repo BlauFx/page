@@ -66,8 +66,8 @@
        <a href="https://www.youtube.com/channel/UCEIPf2h0JK-HE6t6y4l_lWQ">
        <i class="fab fa-youtube fa-2x"></i>
        </a>
-       <a href="https://twitter.com/OfficialBlauFx">
-       <i class="fab fa-twitter fa-2x"></i>
+       <a href="https://x.com/OfficialBlauFx">
+       <i class="fa-brands fa-x-twitter fa-2x"></i>
        </a>
        <a href="https://lichess.org/@/BlauFx">
        <i class="fas fa-chess fa-2x"></i>
