@@ -1,7 +1,9 @@
 <script lang="ts">
     import Background from "./Background.svelte";
-    let name = "";
-    //<!--", BlauFx";-->
+    import Text from "./Text.svelte";
+    import SocialMedia from "./SocialMedia.svelte";
+
+    let name = ""; //", BlauFx";
     let num = name.length;
     let textToDisplay = name;
     let increment = false;
@@ -44,41 +46,9 @@
        </h1>
     </div>
     <p id="text">
-       Hey there! I'm BlauFx, 19 y/o.<br>
-       I try to use my time as efficiently/productively as possible, which sadly doesn't work out quite as often as I would like it to.<br>
-       Nevertheless, I strive improve myself and I would like to receive criticism about things that I could improve on.<br>
-       <br>
-       I'm a full-time Linux enthusiast (I use EndeavourOS).<br>
-       In my free time I play video games, develop stuff, watch anime, try to make some AMVs, or tinker around with Linux.<br>
-       I am interested in a variety of areas, starting from web development, cybersecurity, games, reverse engineering over to kernel development.<br>
+        <Text />
     </p>
-    <div class="footer">
-       <p2>Social media/contact</p2>
-       <a href="https://github.com/BlauFx">
-       <i class="fab fa-github fa-2x"></i>
-       </a>
-       <a href="https://reddit.com/u/BlauFx">
-       <i class="fab fa-reddit fa-2x"></i>
-       </a>
-       <a href="https://osu.ppy.sh/users/9690071">
-       <i class="far fa-circle fa-2x"></i>
-       </a>
-       <a href="https://www.youtube.com/channel/UCEIPf2h0JK-HE6t6y4l_lWQ">
-       <i class="fab fa-youtube fa-2x"></i>
-       </a>
-       <a href="https://x.com/OfficialBlauFx">
-       <i class="fa-brands fa-x-twitter fa-2x"></i>
-       </a>
-       <a href="https://lichess.org/@/BlauFx">
-       <i class="fas fa-chess fa-2x"></i>
-       </a>
-       <a href="mailto:blaufxsup@gmail.com">
-       <i class="fas fa-envelope-open fa-2x"></i>
-       </a>
-       <a href="mailto:contact@blaufx.me">
-       <i class="fas fa-envelope-open fa-2x"></i>
-       </a>
-    </div>
+        <SocialMedia />
  </div>
  <button class="btn" id="loginBtn" onclick="loginBtn()">Login</button>
 
@@ -108,9 +78,6 @@
 	transform: translate(-50%, -50%);
 }
 
-.footer {
-    color: #FFFF;
-}
 
 .btn {
     position: fixed;
@@ -218,28 +185,6 @@ p {
     float: left;
     position: relative;
     left: -50%;
-}
-
-p2 {
-
-    display: block; 
-    margin-top: 1em; 
-    margin-bottom: 1em;
-
-    font-family: Sans-serif;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;
-}
-
-a {
-    height: 100%;
-    padding: 20px;
-    /* font-size: -webkit-xxx-large */;
-
-    text-decoration: none;
-    color: #FFF;
 }
 
 .child-container {
