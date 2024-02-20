@@ -172,7 +172,6 @@ p {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    width: 65em;
     float: left;
     position: relative;
     padding-left: 0%;
