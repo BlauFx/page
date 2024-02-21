@@ -173,10 +173,8 @@ p {
     margin-left: auto;
     margin-right: auto;
     float: left;
-    position: relative;
-    padding-left: 0%;
+    padding-left: 15%;
     padding-right: 10%;
-    left: 7.5%;
 }
 
 .text
