@@ -24,6 +24,9 @@
    <a href="mailto:contact@blaufx.me">
    <i class="fas fa-envelope-open fa-2x"></i>
    </a>
+   <a href="https://github.com/BlauFx.gpg">
+   <i class="fa fa-key fa-2x"></i>
+   </a>
 </div>
 
 
